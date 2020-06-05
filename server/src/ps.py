@@ -20,7 +20,7 @@ def paste(filename, name, x, y, password='123456'):
         script = open(basename(dirname(__file__)) + '/script.js', 'r').read()
         x -= DOC_WIDTH * 0.5 + DOC_OFFSET_X
         y -= DOC_HEIGHT * 0.5 + DOC_OFFSET_Y
-        script += f'pasteImage("{filename}", "{name}", {x}, {y})'
+        script += f'pasteImage("{filename}", "{name}", 1, 1)'
         result = conn.execute(script)
         print(result)
         if result['status'] != 0:
