@@ -20,6 +20,7 @@ pip3 install -r requirements.txt
 ## 运行
 首先运行[BASNet-HTTP wrapper](https://github.com/122537067/basnet-http) 用作处理图层（放置在deocker）
 <br/>
+![basnetRun](https://github.com/122537067/ar-cutpaste/blob/master/readmeImg/basnetHttpRun.png)
 photoshop密码(123456)记得一致
 
 运行python文件：<br/>
@@ -39,7 +40,7 @@ python3 src/main.py \
     --photoshop_password 123456
 ```
 
-[image]
+![runServer](https://github.com/122537067/ar-cutpaste/blob/master/readmeImg/serverRun.png)
 
 <br/><br/><br/><br/>
 ___
