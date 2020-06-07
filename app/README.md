@@ -15,7 +15,6 @@ npm install
 3: const URL = "http://192.168.0.176:8080"; //写你的ip的地址
 ```
 <br/>
-例如我的ip是：[image]
 
 ## 运行
 
