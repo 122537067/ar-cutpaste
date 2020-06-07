@@ -53,7 +53,7 @@ pip3 install -r requirements.txt
 ####  设置基于个人服务器的检测功能 (requires a CUDA GPU)
 
 - 使用[BASNet-HTTP wrapper](/basnet-http) (requires a CUDA GPU)
-这里需要使用到Docker(具体参考文中CSDN链接)
+![Docker](https://github.com/122537067/ar-cutpaste/blob/master/readmeImg/dockerMsg.png)
 
 ### 3 - 配置和运行本地服务器
 
