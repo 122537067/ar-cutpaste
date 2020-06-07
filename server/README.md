@@ -32,11 +32,13 @@ python src/main.py \
 <br/>
 我的运行方式:
 <br/>
+
 ```console
 python3 src/main.py \
     --basnet_service_ip="http://192.168.0.176" \
     --photoshop_password 123456
 ```
+
 [image]
 
 <br/><br/><br/><br/>
