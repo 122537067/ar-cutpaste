@@ -1,6 +1,6 @@
 # AR 复制 & 粘贴（原文是英文，这个不是翻译）
 
-视频Demo __。
+[视频Demo](https://www.bilibili.com/video/BV1dA411q7o5)。
 
 该原型拥有3个独立的模块，分别是手机端APP、本地服务器和目标检测及背景移除服务。
 
@@ -30,6 +30,7 @@
 ### 1 - 配置 Photoshop
 
 - 点击 "Preferences > Plug-ins",打勾 "Remote Connection" 然后设置一个密码(我用123456).
+![](http://https://github.com/122537067/ar-cutpaste/blob/master/readmeImg/photoshopSetting.png)  
 
 - photoshop的配置应该与 ```server/src/ps.py``` 保持一致, 否则粘贴不了图层到photoshop.
 
@@ -51,7 +52,7 @@ pip3 install -r requirements.txt
 
 ####  设置基于个人服务器的检测功能 (requires a CUDA GPU)
 
-- 使用[BASNet-HTTP wrapper](https://github.com/cyrildiagne/basnet-http) (requires a CUDA GPU)
+- 使用[BASNet-HTTP wrapper](/basnet-http) (requires a CUDA GPU)
 这里需要使用到Docker(具体参考文中CSDN链接)
 
 ### 3 - 配置和运行本地服务器
