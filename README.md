@@ -1,6 +1,7 @@
 # AR 复制 & 粘贴（原文是英文，这个不是翻译）
 
 [视频Demo](https://www.bilibili.com/video/BV1dA411q7o5)。
+[提前须知](https://blog.csdn.net/one_hwx/article/details/106611103)
 
 该原型拥有3个独立的模块，分别是手机端APP、本地服务器和目标检测及背景移除服务。
 
