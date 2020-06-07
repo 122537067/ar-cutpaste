@@ -21,6 +21,8 @@ def paste(filename, name, x, y, password='123456'):
         x -= DOC_WIDTH * 0.5 + DOC_OFFSET_X
         y -= DOC_HEIGHT * 0.5 + DOC_OFFSET_Y
         script += f'pasteImage("{filename}", "{name}", 1, 1)'
+        #mac OS ,I don't know why if I do that,the png posit where I don't know
+        #script += f'pasteImage("{filename}", "{name}", {x}, {y})'
         result = conn.execute(script)
         print(result)
         if result['status'] != 0:
