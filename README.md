@@ -30,7 +30,7 @@
 ### 1 - 配置 Photoshop
 
 - 点击 "Preferences > Plug-ins",打勾 "Remote Connection" 然后设置一个密码(我用123456).
-![](http://https://github.com/122537067/ar-cutpaste/blob/master/readmeImg/photoshopSetting.png)  
+![photoShopSetting](https://github.com/122537067/ar-cutpaste/blob/master/readmeImg/photoshopSetting.png)  
 
 - photoshop的配置应该与 ```server/src/ps.py``` 保持一致, 否则粘贴不了图层到photoshop.
 
