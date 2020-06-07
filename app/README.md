@@ -22,7 +22,7 @@ npm install
 ```bash
 npm start
 ```
-[image]
+![appNpmStrat](https://github.com/122537067/ar-cutpaste/blob/master/readmeImg/appStart.png)
 <br/><br/><br/><br/>
 ___
 以下原文
