@@ -16,6 +16,7 @@ source venv/bin/activate
 pip3 install -r requirements.txt
 ```
 否则可能会读取不了flask包
+![serverConfig](https://github.com/122537067/ar-cutpaste/blob/master/readmeImg/serveConfig1.png)
 
 ## 运行
 首先运行[BASNet-HTTP wrapper](https://github.com/122537067/basnet-http) 用作处理图层（放置在deocker）
